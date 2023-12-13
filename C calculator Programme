@@ -1,0 +1,41 @@
+#include <stdio.h>
+
+int main() {
+      int a,b;
+    //   addition programme
+            printf("This is an addition programme--- \n");
+         printf("Enter Your First Number:");
+         scanf("%d",&a);
+         printf("Enter Your Second Number:");
+         scanf("%d",&b);
+         printf("the addition of the number is = %d \n \n",(a+b));
+         
+    //   substraction programme  
+    
+     printf("This is an Substraction  programme--- \n");
+         printf("Enter Your First Number:");
+         scanf("%d",&a);
+         printf("Enter Your Second Number:");
+         scanf("%d",&b);
+         printf("the Substraction of the number is = %d \n \n",(a-b));
+         
+         
+    //   This is an Multiplication Programme
+        printf("This is an Multiplication  programme--- \n");
+         printf("Enter Your First Number:");
+         scanf("%d",&a);
+         printf("Enter Your Second Number:");
+         scanf("%d",&b);
+         printf("the Multiplication of the number is = %d \n \n",(a*b));
+    
+    // This is an Divison Programme
+      printf("This is an Divison programme--- \n");
+         printf("Enter Your First Number:");
+         scanf("%d",&a);
+         printf("Enter Your Second Number:");
+         scanf("%d",&b);
+         printf("the Divison of the number is = %d \n \n",(a/b));
+    
+    
+    return 0;
+}
