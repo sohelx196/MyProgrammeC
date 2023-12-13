@@ -1,0 +1,26 @@
+#include <stdio.h>
+
+int main() {
+int math,phy,che,eng,hin;
+printf("Enter Your Mathematics Mark:");
+ scanf( "%d",&math);
+ 
+ printf("Enter Your Physics Mark:");
+ scanf("%d",&phy);
+ 
+ printf("Enter Your Chemistry Mark:");
+ scanf("%d",&che);
+ 
+ printf("Enter Your English Mark:");
+ scanf("%d",&eng);
+ 
+ printf("Enter Your Hindi Mark:\n");
+ scanf("%d",&hin);
+  
+  int a = math+phy+che+eng+hin;
+ printf("The Total mark is %d",a);
+
+//   printf("The Percentage is ",);
+  
+    return 0;
+}
