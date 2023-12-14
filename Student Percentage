@@ -17,10 +17,11 @@ printf("Enter Your Mathematics Mark:");
  printf("Enter Your Hindi Mark:\n");
  scanf("%d",&hin);
   
-  int a = math+phy+che+eng+hin;
- printf("The Total mark is %d",a);
+  float a = math+phy+che+eng+hin;
+ printf("The Total mark is %f out of 500 \n ",a);
+ 
+ printf("The Percentage Of the Number is %f",(a/5));
 
-//   printf("The Percentage is ",);
-  
+
     return 0;
 }
